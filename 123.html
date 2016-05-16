@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>山东财经大学</title>
+	<style type="text/css">
+		*{
+			/*好习惯：*代表把所有元素初始化内外边距都编程0 */
+			padding:0;
+			margin: 0;
+		}
+		body{
+			width: 1000px;
+			height: 1110px;
+			background: rgb(204,204,204);
+			margin: auto;
+		}
+		a{
+			text-decoration: none;
+	 	}
+	 	#header{
+	 		height: 80px;
+	 		background:url("images/2.png") no-repeat;
+	 		background-size: 100% 100%;
+	 	}
+
+
+	 	#threenavs {
+	 		height: 25%;
+	 		width: 250px;
+	 		margin:20px 780px;
+
+	 	}
+	 	#threenavs a{
+	 		font-size: 90%;
+	 	}
+
+		#searchbox{
+			width: 200px;
+			height: 50px;
+			margin-left: 800px;
+				
+		}
+		#inputbox input{
+			height: 22px;
+			width: 150px;
+			padding-left: -20px;
+			float: left;
+
+		}
+
+		#searchimage input{
+			height: 27px;
+			width:32px;
+			border: none;
+			background: url("images/3.jpg") no-repeat;
+		}
+		#navbar{
+	 		height: 60px;
+	 		background:blue;
+
+	 	}
+	 	#rollplay{
+	 		height: 350px;
+	 		background:green;
+	 	}
+	 	#zone{
+	 		height: 400px;
+	 		background: black;
+	 	}
+	 	#adv{
+	 		height: 80px;
+	 		background: #eee333;
+	 	}
+	 	#footer{
+	 		height: 100px;
+	 		background: #ffcc75;
+	 	}
+		.width-1000px{
+			width:1000px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header" class="width-1000px" >
+		<div id="threenavs">
+			<a href="">服务门户</a>
+			<a href="">网站地图</a>
+			<a href="">English Version</a>
+		</div>
+		<div id="searchbox">
+			<div id="inputbox">
+				<input type="text" placeholder="站内搜索"></input>
+			</div>
+			<div id="searchimage">
+				<!-- 用于提交搜索内容，以后说 -->
+				<input type="submit" value=""></input>
+			</div>
+		</div>
+		
+	</div>
+	<div id="navbar" class="width-1000px"></div>
+	<div id="rollplay" class="width-1000px"></div>
+	<div id="zone" class="width-1000px"></div>
+	<div id="adv" class="width-1000px"></div>
+	<div id="footer" class="width-1000px"></div>
+</body>
+</html>
