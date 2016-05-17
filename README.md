@@ -7,6 +7,6 @@
 如何创建自己分支：
   首先要建一个自己的分支，点完Branch：master以后，下面有个框，写着Find or Create ,比如我叫futengda，我输入futengda这时候就建立了一个futengda的分支。
 如何同步自己的文件到GitHub：
-  先下桌面版GitHub：https://desktop.github.com
+  先下桌面版GitHub：https://desktop.github.com  可能需要翻墙。如果不行去这儿下http://download.csdn.net/detail/nevinblog/9031049
   第三方教程：http://www.cnblogs.com/jiqing9006/p/3987702.html
   官方教程（英文）：https://desktop.github.com
